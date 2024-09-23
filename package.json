@@ -1,0 +1,22 @@
+{
+  "name": "shopify-training",
+  "version": "1.0.0",
+  "description": "this is shopify training repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/shopify-api": "^11.4.1",
+    "@shopify/shopify-app-remix": "^3.3.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "nodemon": "^3.1.6",
+    "shopify-api-node": "^3.14.0"
+  }
+}
