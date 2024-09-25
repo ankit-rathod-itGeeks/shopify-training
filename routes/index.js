@@ -11,7 +11,9 @@ router.delete('/deleteProduct/:id',constrollers.deleteProduct)
 router.get('/totalProducts',constrollers.totalProductCount)
 
 
-router.get('productVarients',variants.getProductVarients)
+router.get('/productVarients/:id',variants.getProductVarients)
+router.post('/createProductVariant/:id',variants.createProductVariant)
+router.delete('/deletedProductVariant/:id',variants.deletedProductVariant)
 
 module.exports=router
 
